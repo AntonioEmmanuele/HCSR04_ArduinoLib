@@ -28,10 +28,10 @@ namespace hcsr_04{
   /*
    * @brief: copy constructor
    *      ECHO       Trigger    
-   *     Pin 7        Pin 8        
+   *     Pin 2        Pin 7        
    */
   hcsr04::hcsr04(void){
-    hcsr04(7,8);
+    hcsr04(2,7);
   }
  /*
   * @brief: Prints the last distance measured from an obstacule and the time where the echo_pin was high (read_time)

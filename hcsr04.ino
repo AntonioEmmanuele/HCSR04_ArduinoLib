@@ -22,7 +22,7 @@ static unsigned long time_echo=0;
 static int error_get=0;
 static int error_poll=0;
 /*7 is echo and 8 is trigger*/
-static hcsr04 my_ultra(7,8);
+static hcsr04 my_ultra(2,7);
 void setup() {
   Serial.begin(9600);
 }
