@@ -32,7 +32,7 @@ void loop() {
   my_ultra.hcsr04Trigger();
   error_poll=my_ultra.hcsr04EchoPoll();
   if(HCSR04_IS_ERR(error_poll))
-      //my_ultra.hcsr04PrintErr(HCSR04_TO_DIAGN(error_get));
+      my_ultra.hcsr04PrintErr(HCSR04_TO_DIAGN(error_get));
   my_ultra.hcsr04DelayNextMeasurement();
 #elif ALL_IN_ONE_TST && !SINGLE_TST
   error_poll=my_ultra.hcsr04AllInOne(ALLINONE_TODELAY);

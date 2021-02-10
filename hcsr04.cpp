@@ -137,7 +137,7 @@ namespace hcsr_04{
    /*
     * @brief : Give information about the error received as input.
     */
-   void hcsr04PrintErr(unsigned int error){
+   void hcsr04::hcsr04PrintErr(unsigned int error){
       switch(error){
           case ERR_ECHOPOLL_TIME_ELAPSE:
             Serial.println("[ERROR] Echo pin never becomes high ");

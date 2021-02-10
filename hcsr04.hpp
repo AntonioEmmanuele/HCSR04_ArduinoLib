@@ -48,7 +48,7 @@ namespace hcsr_04{
 #define HCSR04_IS_ERR(value) value<0              
 
 /*Macro used to pass error to the diagnose function*/
-#define HCSR04_TO_DIAGN(v) (-1)*v             
+#define HCSR04_TO_DIAGN(v) (unsigned int)(-1)*v             
 
 class hcsr04{
   private:
