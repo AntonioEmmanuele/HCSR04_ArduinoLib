@@ -56,7 +56,7 @@ else{
     Serial.print("CM:  ");
     Serial.println(distance_cm);
     Serial.print("Inches:  ");
-    Serial.println(distance_cm);
+    Serial.println(distance_inches);
     Serial.print("Time:  ");
     Serial.println(time_echo);
     Serial.println("****************************");
